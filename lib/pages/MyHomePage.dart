@@ -59,7 +59,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         title: "Drink Water",
                         body: "Time to drink some water!",
                         payload: "You just took water! Huurray!",
-                        seconds: 2);
+                        seconds: 8);
                   },
                   child: const Text("Schedule Drink "))
             ],
