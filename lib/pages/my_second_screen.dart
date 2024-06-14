@@ -18,7 +18,7 @@ class MySecondScreen extends StatelessWidget {
             Container(
               margin: const EdgeInsets.only(bottom: 100),
               child: Image.asset(
-                "assets/images/justwater.png",
+                "assets/images/just_water.png",
               ),
             ),
             Text(payload)

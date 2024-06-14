@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_push_notifications/pages/MySecondScreen.dart';
+import 'package:flutter_push_notifications/pages/my_second_screen.dart';
 import 'package:flutter_push_notifications/utils/notification_service.dart';
 
 class MyHomePage extends StatefulWidget {
@@ -38,7 +38,7 @@ class _MyHomePageState extends State<MyHomePage> {
         children: [
           Container(
             margin: const EdgeInsets.only(bottom: 100),
-            child: Image.asset("assets/images/justwater.png", scale: 0.6),
+            child: Image.asset("assets/images/just_water.png", scale: 0.6),
           ),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -49,7 +49,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         id: 0,
                         title: "Drink Water",
                         body: "Time to drink some water!",
-                        payload: "You just took water! Huurray!");
+                        payload: "You just drank some water! Yeah!");
                   },
                   child: const Text("Drink Now")),
               ElevatedButton(
@@ -58,7 +58,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         id: 1,
                         title: "Drink Water",
                         body: "Time to drink some water!",
-                        payload: "You just took water! Huurray!",
+                        payload: "You just took water! Hurray!",
                         seconds: 8);
                   },
                   child: const Text("Schedule Drink "))

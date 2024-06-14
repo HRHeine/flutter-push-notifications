@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_push_notifications/pages/MyHomePage.dart';
+import 'package:flutter_push_notifications/pages/my_home_page.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
